@@ -1,18 +1,52 @@
----
-layout: default
----
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Welcome</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>	
+	<body class="loading">
+	<canvas id="c"></canvas>
+		<div id="wrapper">
+			<!--div id="bg"></div-->
+			<!--div id="overlay"></div-->
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1>Varun Iyer</h1>
+						<p>Hacker &nbsp;&bull;&nbsp; Engineer&nbsp;&bull;&nbsp; Adventurer</p>
+						<nav>
+							<ul>
+								<li><a href="https://steamcommunity.com/id/vigilante13/" class="icon fa-steam" target="blank"><span class="label">Steam</span></a></li>
+								<li><a href="https://www.facebook.com/vigilante13" class="icon fa-facebook" target="blank"><span class="label">Facebook</span></a></li>
+								<li><a href="blog.html" class="icon fa-sign-in"><span class="label">Enter Site</span></a></li>
+								<li><a href="http://stackexchange.com/users/2599893/varun-iyer?tab=accounts" class="icon fa-stack-exchange" target="blank"><span class="label">Stack Exchange</span></a></li>
+								<li><a href="mailto:varun_iyer@icloud.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Varun Iyer 2019. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		<script type="text/javascript" src="matrix.js"></script>
+	</body>
+</html>
