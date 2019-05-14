@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Varun Iyer
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Hacker
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars3.githubusercontent.com/u/4584270?s=400&u=42d79ddb5f12c2ae872a645c7379a1e31daa7fe6&v=4
 
 #
 # Flags below are optional
@@ -18,16 +18,16 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: varun_iyer@icloud.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: vigilante13
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter:
+  stackoverflow: users/2252615/varun-iyer # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://vigilante13.github.io 
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
