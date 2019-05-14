@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="posts">
+    <h1>DEFCON CTF Qualifiers 2019</h1>
   {% assign filt_posts = site.posts | where: "category", "defconquals2019" %}
   {% for post in filt_posts %}
-    <h1>DEFCON CTF Qualifiers 2019</h1>
     <article class="post">
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
